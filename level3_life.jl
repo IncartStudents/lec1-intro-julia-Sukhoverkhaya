@@ -7,6 +7,8 @@ mutable struct Life
     next_frame::Matrix{Int}
 end
 
+# dflvdskfv
+
 function step!(state::Life)
     curr = state.current_frame
     next = state.next_frame
